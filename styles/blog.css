@@ -1,0 +1,398 @@
+/* shared style */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.btn{
+    font-weight: semi-bold;
+    background-color: #30B868;
+    width: 160px;
+    height: 40px;
+    padding:12px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 18px 0;
+    border: none;
+    color: white;
+}
+
+/* main style */
+
+header{
+    background-color: #FFFFFF;
+    padding-top: 15px;
+    /* background-image: url(../assets/hero-bg.png);
+    margin-top: 50px; */
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+}
+
+nav ul{
+    text-decoration: none;
+    list-style: none;
+   
+}
+
+nav ul a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+nav ul li{
+    display: inline-block;
+    
+}
+
+.list-items{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+}
+
+.header-bg{
+    background-image: url('../assets/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 648px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+
+}
+
+.header-content{
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    z-index: 1;
+    color: white;
+    max-width: 700px;
+
+
+}
+
+.early-access{
+    background-color:#FFFFFF;
+    color: #30B868;
+    width: 225px;
+
+
+}
+
+.badge{
+background: white;
+color: #1FA463;
+padding:6px 12px;
+border-radius: 20px;
+width: fit-content;
+margin-bottom: 16px;
+font-size: 16px;
+margin-right: auto;
+margin-left: auto;
+
+
+
+
+
+
+
+
+
+}
+
+
+.dot{
+    text-shadow: #23d466 0px 0px 15px;
+}
+.btn-primary{
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #1FA463;
+
+
+
+    background-image: url('../assets/ArrowRight.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+     background-position: right 4px center;
+}
+
+.btn-secondary{
+    background:rgba(255, 255, 255, 0.2);
+  border: 1px solid white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor:pointer;
+  color: white;
+
+    
+
+
+}
+
+.bg-text{
+    margin:20px auto 30px;
+    font-size: 15px;
+    line-height: 1.5;
+    max-width: 100%;
+    width: 600px; 
+
+}
+
+.banner-heading{
+    font-weight: bold;
+    color: #23d466;
+}
+
+h1{
+    font-size: 45px;
+    margin-bottom:20px ;
+}
+
+
+
+
+
+
+.sec-caption{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
+.sub-caption{
+    text-align: center;
+    color: #555;
+    margin-bottom: 50px;
+    font-size: 300;
+    font-size: 10px;
+
+}
+
+.Grid-Section{
+width: 90%;
+max-width: 1200px;
+display: grid;
+margin: auto;
+gap: 20px;
+grid-template-columns: repeat(4,1fr);
+
+
+}
+
+.card{
+    background:#fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow:0 6px 12px rebeccapurple;
+
+
+}
+.icon{
+ width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ff6b6b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 12px;
+
+}
+.icon img{
+    width: 28px;
+    height: 28px;
+
+}
+   
+
+/* eikhane kaj baki ache icon er  */
+
+
+
+
+.card .icon{
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #30B868;
+}
+
+
+
+.card h3{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.card p {
+    color:#555;
+    font-size: 16px;
+}
+
+.brain-section{
+    padding: 80px 0;
+}
+
+.brain-container{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+    gap: 50px;
+    width: 90%;
+
+}
+.brain-text-content h2{
+    font-size: 30px ;
+    margin-bottom: 15px;
+}
+
+.word{
+    color: #30B868;
+    font-weight: medium;
+    margin-bottom: 10px;
+
+}
+
+
+.brain-small-para{
+    color: #555;
+   margin-bottom: 20px;
+}
+
+.brain-list-items{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+
+.brain-list-items li{
+    margin-bottom: 10px;
+    color: #333;
+    position: relative;
+    padding-left: 25px;
+}
+
+.brain-list-items li::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    color: #30B868;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url('../assets/CheckCircle.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+/* This is Credit Card Section */
+
+.credit-card{
+    background-color:#F7F6F2;
+    text-align: center;
+    padding: 70px 25px;
+    margin: 60px auto;
+    max-width: 1200px;
+    
+
+}
+
+
+.btn-credit{
+    font-weight: semi-bold;
+    background-color: #30B868;
+    width: 160px;
+    height: 40px;
+    padding:12px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 18px 0;
+    border: none;
+    color: white;
+
+    background-image: url('../assets/ArrowRight.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: right 10px center;
+
+}
+
+
+.credit-id{
+    color: #627382;
+    font-weight:300 ;
+    font-size: 14px;
+}
+
+
+
+
+.footer{
+background: #07203B;
+color: #ffffff;
+display: flex;
+justify-content:space-between;
+padding: 100px 150px;
+margin-top: 60px;
+height: 300px;
+
+}
+
+.footer-law{
+    text-align: center;
+    padding: 20px;
+    background: #07203B;
+    color: #d1d1d1;
+    font-size: 10px;
+    position: relative;
+
+}
+
+.footer-law::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1200px;
+    height: 1px;
+    background: #d32c2c;
+    transform: translateX(-50%);
+
+}
+
+#free{
+    color: #627382;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+
+.icons i {
+  font-size: 20px;
+  margin: 0 5px;
+  cursor: pointer;
+}
