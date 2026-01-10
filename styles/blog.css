@@ -27,11 +27,21 @@
 
 /* main style */
 
-header{
+/* header{
     background-color: #FFFFFF;
     padding-top: 15px;
-    /* background-image: url(../assets/hero-bg.png);
-    margin-top: 50px; */
+    background-image: url(../magic/hero-bg.png);
+    margin-top: 50px;
+} */
+
+header.header-bg {
+    background-image: url('../magic/hero-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    position: relative;
 }
 
 nav{
@@ -64,7 +74,7 @@ nav ul li{
 }
 
 .header-bg{
-    background-image: url('../assets/hero-bg.png');
+    background-image: url('../magic/hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -130,7 +140,7 @@ margin-left: auto;
 
 
 
-    background-image: url('../assets/ArrowRight.png');
+    background-image: url('../magic/ArrowRight.png');
     background-repeat: no-repeat;
     background-size: 15px;
      background-position: right 4px center;
@@ -301,7 +311,7 @@ grid-template-columns: repeat(4,1fr);
     color: #30B868;
     top: 50%;
     transform: translateY(-50%);
-    background-image: url('../assets/CheckCircle.png');
+    background-image: url('../magic/CheckCircle.png');
     background-size: contain;
     background-repeat: no-repeat;
     width: 20px;
@@ -333,7 +343,7 @@ grid-template-columns: repeat(4,1fr);
     border: none;
     color: white;
 
-    background-image: url('../assets/ArrowRight.png');
+    background-image: url('../magic/ArrowRight.png');
     background-repeat: no-repeat;
     background-size: 15px;
     background-position: right 10px center;
